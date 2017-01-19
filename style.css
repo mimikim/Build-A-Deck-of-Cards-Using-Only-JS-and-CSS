@@ -1,0 +1,33 @@
+.card {
+  border: 2px solid #000000;
+  border-radius: 10px;
+  padding: 5px 5px;
+  width: 200px;
+  height: 250px;
+  display: inline-block;
+  margin: 5px;
+  font-family: "Times New Roman", serif;
+  overflow: hidden;
+}
+
+.card .center {
+  font-size: 150px;
+  line-height: 118px;
+  text-align: center;
+}
+
+.card .value {
+  font-size: 35px;
+  font-weight: bold;
+  line-height: 28px;
+}
+
+.card .right {
+  -webkit-transform: rotateX(180deg) rotateY(180deg);
+  transform: rotateX(180deg) rotateY(180deg);
+}
+
+.hearts,
+.diamonds {
+  color: #FF0000;
+}
